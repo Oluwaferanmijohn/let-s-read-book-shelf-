@@ -24,6 +24,17 @@ html {
     font-size: 65.5%;
 }
 
+#message {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+}
+
 main {
     height: 100vh;
     display: flex;
