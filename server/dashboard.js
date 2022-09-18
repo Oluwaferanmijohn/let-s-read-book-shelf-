@@ -19,7 +19,7 @@ onAuthStateChanged(auth, (user) => {
         activeUser = user.uid
         getUserData(activeUser);
     } else {
-        window.location.replace('./login.html');
+        window.location.replace('../login/login.html');
     }
 });
 
@@ -28,7 +28,7 @@ let signoutnow = document.getElementById('logout');
 signoutnow.addEventListener('click', () => {
     signOut(auth).then(() => {
         alert('You have Logged Out');
-        window.location.replace('./login.html');
+        window.location.replace('../login/login.html');
     });
 });
 

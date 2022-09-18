@@ -1,0 +1,1 @@
+menuBar = document.getElementById('menuBar ')

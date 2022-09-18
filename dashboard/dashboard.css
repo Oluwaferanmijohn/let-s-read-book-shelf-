@@ -99,7 +99,19 @@
         }
 
         /* general css class */
+        /* aside bar  */
+        .menubar-container {
+            position: absolute;
+            display: none;
+        }
 
+        .img-container img {
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+        }
+
+        /* aside bar  */
 
         footer {
             background-color: #001247;
@@ -110,7 +122,12 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            padding: 1em 2em;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        footer i {
             font-size: 2em;
-            padding: 1em;
         }
     }
