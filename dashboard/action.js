@@ -4,13 +4,15 @@ const main = document.getElementById('main');
 const footer = document.getElementById('footer');
 const closeBtn = document.getElementById('closeBtn');
 const asideBar = document.getElementById('aside');
+const getStarted = document.getElementById('getStarted');
 
 
 menuBar.addEventListener('click', () => {
+
     asideBar.style.display = "block";
     // asideBar.style.overflow = "hidden";
-    asideBar.style.transition = "5s ease-in-out"
-    asideBar.style.transition = "5s ease-in-out"
+    // asideBar.style.transition = "5s ease-in-out"
+    // asideBar.style.transition = "5s ease-in-out"
     // header.style.filter = "blur(8px)"
     header.style.display = "none"
     // main.style.filter = "blur(8px)"
@@ -28,5 +30,8 @@ closeBtn.addEventListener('click', () => {
     footer.style.display = "flex"
 });
 
+getStarted.addEventListener('click', () => {
+    window.location.replace('./post.html');
 
+});
 // alert("we are working")

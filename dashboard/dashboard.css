@@ -224,4 +224,40 @@
         footer i {
             font-size: 2em;
         }
+
+
+        /* post section css starts  */
+        .post-main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding-top: 5em;
+            color: white;
+            text-transform: capitalize;
+            font-size: 1.4em;
+        }
+
+        .input-container {
+            background-color: #001247;
+            padding: 2em;
+            margin-bottom: 1em;
+            border-radius: 10px;
+        }
+
+        ::placeholder {
+            color: rgb(53, 53, 53);
+            text-transform: capitalize;
+        }
+
+        input {
+            width: 300px;
+        }
+
+        input, textarea {
+            padding: 0.5em 0.2em;
+        }
+
+        /* post section css ends  */
     }
