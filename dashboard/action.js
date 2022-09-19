@@ -6,18 +6,26 @@ const closeBtn = document.getElementById('closeBtn');
 const asideBar = document.getElementById('aside');
 
 
-menuBar.addEventListener('click', function () {
+menuBar.addEventListener('click', () => {
     asideBar.style.display = "block";
+    // asideBar.style.overflow = "hidden";
     asideBar.style.transition = "5s ease-in-out"
-    header.style.filter = "blur(8px)"
-    main.style.filter = "blur(8px)"
-    footer.style.filter = "blur(8px)"
+    asideBar.style.transition = "5s ease-in-out"
+    // header.style.filter = "blur(8px)"
+    header.style.display = "none"
+    // main.style.filter = "blur(8px)"
+    main.style.display = "none"
+    // footer.style.filter = "blur(8px)"
+    footer.style.display = "none"
 })
-closeBtn.addEventListener('click', function () {
+closeBtn.addEventListener('click', () => {
     asideBar.style.display = "none";
-    header.style.filter = "none"
-    main.style.filter = "none"
-    footer.style.filter = "none"
+    // header.style.filter = "none"
+    // main.style.filter = "none"
+    // footer.style.filter = "none"
+    header.style.display = "block"
+    main.style.display = "block"
+    footer.style.display = "flex"
 });
 
 
