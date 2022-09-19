@@ -1,10 +1,12 @@
 const menuBar = document.getElementById('menuBar');
+const setting = document.getElementById('setting');
 const header = document.getElementById('header');
 const main = document.getElementById('main');
 const footer = document.getElementById('footer');
 const closeBtn = document.getElementById('closeBtn');
 const asideBar = document.getElementById('aside');
 const getStarted = document.getElementById('getStarted');
+const getStarted2 = document.getElementById('getStarted2');
 
 
 menuBar.addEventListener('click', () => {
@@ -32,6 +34,14 @@ closeBtn.addEventListener('click', () => {
 
 getStarted.addEventListener('click', () => {
     window.location.replace('./post.html');
+
+});
+getStarted2.addEventListener('click', () => {
+    window.location.replace('./post.html');
+
+});
+setting.addEventListener('click', () => {
+    window.location.replace('./settings.html');
 
 });
 // alert("we are working")
