@@ -24,7 +24,7 @@ async function Login() {
     const data = await signInWithEmailAndPassword(auth, email, password);
     console.log(data)
     let activeUser = data.user.uid
-    window.location.replace("./dashboard.html")
+    window.location.replace("../dashboard/dashboard.html")
   } catch (err) {
     console.log(err.message);
   }
