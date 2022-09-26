@@ -6,6 +6,41 @@
     font-family: 'Amaranth', sans-serif;
 }
 
+/* for message display only  */
+.message {
+    gap: 1em;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    color: white;
+    margin: 1em 1em 1em 55em;
+    border-radius: 10px;
+    padding: 1em 2em 1em 2em;
+    background-color: #ff020fe0;
+
+}
+
+.message i {
+    font-size: 1.5em;
+}
+
+@media (max-width: 800px) {
+    .message {
+        gap: 1em;
+        align-items: center;
+        font-size: 1em;
+        display: flex;
+        position: absolute;
+        color: white;
+        margin: 0.7em 1em 1em 8em;
+        border-radius: 10px;
+        padding: 1em 2em 1em 2em;
+        background-color: #ff020fe0;
+
+    }
+}
+
+/* for message display only  */
 .main-contnr {
     background-color: #d2ddff;
     padding: 5em;

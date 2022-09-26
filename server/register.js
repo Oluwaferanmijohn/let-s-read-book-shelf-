@@ -39,3 +39,8 @@ async function register() {
         }
     }
 }
+let closeBtnReg = document.getElementById("closeBtnReg");
+let errorMessage = document.getElementById("errorMessage");
+closeBtnReg.addEventListener('click', () => {
+    errorMessage.style.display = "none";
+})

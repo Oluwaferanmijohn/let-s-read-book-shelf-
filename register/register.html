@@ -21,7 +21,11 @@
 
     <body>
 
-        <header></header>
+        <header i>
+            <div id="errorMessage" class="message">
+                <h2>This is for test only not working yet...</h2><i id="closeBtnReg" class="fa-solid fa-x"></i>
+            </div>
+        </header>
         <main>
             <div class="main-contnr">
                 <div class="logo-design">
@@ -35,26 +39,26 @@
                 </div>
                 <p id="wailMessage"></p>
                 <div class="login-container">
-                  
+
                     <input type="text" name="fullname " id="fullname" placeholder="Fullname">
                     <div class="icon-container">
-                        <i class="fa-solid fa-user"></i>
-                    </div> 
+                        
+                    </div>
                     <input type="text" name="username" id="username" placeholder="username">
                     <div class="icon-container">
-                        <i class="fa-solid fa-user"></i>
+                        
                     </div>
                     <p id="errorMessage"></p>
 
                     <input type="email" name="email" placeholder="Email Address " id="email">
                     <div class="icon-container">
-                        <i class="fa-solid fa-envelope"></i>
+                       
                     </div>
                     <p id="email-message"></p>
 
                     <input type="password" name="password" id="password" placeholder="password">
                     <div class="icon-container">
-                        <i class="fa-solid fa-lock"></i>
+                        
                     </div>
                     <input
                         type="password"
@@ -62,7 +66,7 @@
                         id="confirmPassword"
                         placeholder="Re-Enter password">
                     <div class="icon-container">
-                        <i class="fa-solid fa-lock"></i>
+                        
                     </div>
 
                 </div>
@@ -73,7 +77,8 @@
                         of this platform.</p>
                 </div>
                 <div>
-                    <button id="register" type="submit">Register </button> 
+                    <button id="register" type="submit">Register
+                    </button>
                 </div>
                 <div class="alternative">
                     <p>Already have an account?,
@@ -83,7 +88,7 @@
             </div>
         </main>
         <footer></footer>
-
+        <script src="https://kit.fontawesome.com/dff98c45d4.js" crossorigin="anonymous"></script>
         <script src="../server/register.js" type="module"></script>
     </body>
 
